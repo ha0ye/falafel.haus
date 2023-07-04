@@ -7,11 +7,11 @@ title: Ways to Contact Me
 url: contact
 ---
 
-## Inclusion Rider
+## ball cheese
 
-_For invited engagements, please note that I use the following inclusion rider._
+_cheese cheese cheese, ball ball ball ball cheese ball ball ball cheese._
 
-I strive for events where the invited [speakers/panelists/etc] are representative of the diversity (along whichever axes) of the appropriate audience. If your event has not yet considered inclusive representation or you feel that there are improvements to be made, I would be happy to step down and/or suggest alternative speakers.
+cheese cheese ball cheese cheese cheese ball [ball/ball/cheese] ball cheese ball ball ball (cheese cheese ball) ball ball cheese cheese. cheese cheese cheese ball cheese ball cheese ball cheese ball ball cheese cheese cheese ball ball cheese ball ball, cheese cheese cheese ball ball cheese ball ball/cheese ball cheese cheese.
 
 ## Email
 
@@ -19,15 +19,4 @@ I strive for events where the invited [speakers/panelists/etc] are representativ
 
 ## Social Media Accounts
 
-### [Mastodon: @hye@glammr.us](https://glammr.us/@hye/)
-
-### [Twitter: Hao_and_Y](https://twitter.com/Hao_and_Y)
-
-## Other Profiles
-
-### [ORCiD: 0000-0002-8630-1458](http://orcid.org/0000-0002-8630-1458)
-
-### [GitHub: ha0ye](https://github.com/ha0ye/haoye.us)
-
-### [Google Scholar](https://scholar.google.com/citations?user=8hToXlwAAAAJ&hl=en)
-
+### [Instagram: hao_and_y](https://www.instagram.com/hao_and_y/)

@@ -85,18 +85,10 @@ enableEmoji = true
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://github.com/ha0ye/falafel.haus"
-    [[params.social]]
-      icon      = "mastodon" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://twitter.com/"
   [[params.social]]
-      icon      = "twitter" # icon name without the 'fa-'
+      icon      = "instagram" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://glammr.us/"
-  [[params.social]]
-      icon      = "orcid" # icon name without the 'fa-'
-      icon_pack = "ai"
-      url       = "http://orcid.org/"
+      url       = "https://www.instagram.com/hao_and_y/"
 
 [taxonomies]
   category = "categories"
@@ -109,14 +101,14 @@ enableEmoji = true
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
+    name = "Eats"
+    title = "nom nom"
+    url = "/eats/"
     weight = 3
   [[menu.header]]
-    name = "Teaching"
-    title = "Teaching"
-    url = "/teaching/"
+    name = "Retrieving"
+    title = "retrieving"
+    url = "/retrieving/"
     weight = 4
   [[menu.header]]
     name = "Contact"

@@ -25,9 +25,16 @@ jobs:
 
       - uses: r-lib/actions/setup-renv@v2
 
+      - name: Read Hugo version
+        id: hugo-version
+        run: |
+          v=$(grep -oP "^\s*HUGO_VERSION\s*=\s*[\"']\K[^\"']+" netlify.toml)
+          test -n "$v" || { echo "No HUGO_VERSION in netlify.toml"; exit 1; }
+          echo "version=$v" >> "$GITHUB_OUTPUT"
+
       - uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: latest
+          hugo-version: ${{ steps.hugo-version.outputs.version }}
           extended: true
 
       - name: Debug hugo install

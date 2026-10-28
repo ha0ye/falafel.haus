@@ -30,8 +30,15 @@ jobs:
           hugo-version: latest
           extended: true
 
+      - name: Debug hugo install
+        run: |
+          which hugo || echo "hugo not found"
+          ls -a
+          Rscript -e 'print(blogdown:::site_root()); print(blogdown::find_hugo())'
+
       - name: Build site
-        run: Rscript -e 'blogdown::build_site(build_rmd = TRUE)'
+        run: |
+          Rscript -e 'options(error = function() { traceback(3); quit(status = 1) }); blogdown::build_site(build_rmd = TRUE)'
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4

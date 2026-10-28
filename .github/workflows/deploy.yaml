@@ -28,12 +28,6 @@ jobs:
           hugo-version: ${{ steps.hugo-version.outputs.version }}
           extended: true
 
-      - name: Debug hugo install
-        run: |
-          which hugo || echo "hugo not found"
-          ls -a
-          Rscript -e 'print(blogdown:::site_root()); print(blogdown::find_hugo())'
-
       - name: Build with Hugo
         run: hugo --minify
 

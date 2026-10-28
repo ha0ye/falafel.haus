@@ -16,15 +16,6 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - uses: r-lib/actions/setup-r@v2
-        with:
-          r-version: renv
-          use-public-rspm: true
-
-      - uses: r-lib/actions/setup-pandoc@v2
-
-      - uses: r-lib/actions/setup-renv@v2
-
       - name: Read Hugo version
         id: hugo-version
         run: |
@@ -43,14 +34,8 @@ jobs:
           ls -a
           Rscript -e 'print(blogdown:::site_root()); print(blogdown::find_hugo())'
 
-      - name: Debug Rmd files
-        run: |
-          find . \( -name "*.Rmd" -o -name "*.Rmarkdown" \) -not -path "./renv/*" -not -path "./public/*"
-          Rscript -e 'cat(as.character(packageVersion("blogdown")), as.character(packageVersion("xfun")), "\n")'
-
-      - name: Build site
-        run: |
-          Rscript -e 'options(error = function() { traceback(3); quit(status = 1) }); blogdown::build_site(build_rmd = TRUE)'
+      - name: Build with Hugo
+        run: hugo --minify
 
       - name: Deploy to gh-pages
         uses: peaceiris/actions-gh-pages@v4

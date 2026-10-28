@@ -1,4 +1,4 @@
-baseURL = "https://falafel.haus/"
+baseURL = "https://ha0ye.github.io/falafel.haus/"
 theme = "hugo-apero"
 languageCode = "en"
 title = "Falafel"
